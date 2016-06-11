@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!-- For ID, just put your name in between the com and example -->
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.OmarPatel.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+    
+    <!-- Name of your app -->
+    <name>Photography app</name>
+
+    <!-- Description of your App -->
+    <description>
+        Does cool stuff with photography.
+    </description>
+
+    <!-- Author of the app ie, you) -->
+    <author href="https://build.phonegap.com" email="steven.w.bolz.jr@gmailcom">
+        steve bolz
+    </author>
+
+    <!-- Your plugin code -->
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+   <!--  <plugin name="cordova-plugin-camera" spec="1.2.0" source="pgb" /> -->
+    <plugin name="com.phonegap.plugins.facebookconnect" spec="0.9.0"> source="pgb">
+    <param name="APP_ID" value="..." />
+    <param name="APP_NAME" value="..." />
+</gap:plugin>
+
+</widget>
+
+
+
+
+
+

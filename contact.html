@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Kamric</title>
+		<link rel="stylesheet" href="_css/bootstrap.min.css">
+		<link rel="stylesheet" href="_css/styles.css">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+    	<link rel="stylesheet" href="_css/jquery.sidr.bare.css">
+		<script type="text/javascript" src="_js/jquery-1.11.3.min.js"></script>
+    	<script src="_js/jquery.sidr.min.js"></script>
+		<script src="_js/scripts.js"></script>
+	</head>
+	<body>
+		<div id="main_container">
+			<a id="simple-menu" href="#sidr"><img id="hamburger_menu_toggle" src="_img/MenuIcon4.png"></a>
+			<div id="sidr">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="people_of_kamric.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="login.html">LOGIN</a></li>
+				</ul>
+			</div>
+			<header>
+				<div class="logo">
+					<strong>KAMRIC</strong>
+					interior design & Staging
+				</div>
+			</header>
+			<div id="main">
+				<div class="inset">
+					<section id="sect1">
+					<div id="contact-form" class="clearfix">
+    <h1> <strong>Get In Touch!</strong>
+
+    <ul id="errors" class="">
+        <li id="info">There were some problems with your form submission:</li>
+    </ul>
+    <p id="success">Thanks for your message! We will get back to you ASAP!</p>
+    <form method="post" action="process.php">
+        <label for="name">Name: <span class="required">*</span></label>
+        <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus" />
+         
+        <label for="email">Email Address: <span class="required">*</span></label>
+        <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
+         
+        <label for="telephone">Telephone: </label>
+        <input type="tel" id="telephone" name="telephone" value="" />
+         
+        <label for="enquiry">Enquiry: </label>
+        <select id="enquiry" name="enquiry">
+            <option value="general">General</option>
+            <option value="sales">Places to Visit</option>
+            <option value="support">Ancient Ruins</option>
+            <option value="general">Inca Trail</option>
+            <option value="sales">Macchu Picchu</option>
+            <option value="support">History</option>
+        </select>
+         
+        <label for="message">Message: <span class="required">*</span></label>
+        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
+         
+        <span id="loading"></span>
+        <input type="submit" value="Holla!" id="submit-button" />
+        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+      </h1>
+    </form>
+</div>
+		<script type="text/javascript" src="_js/jquery-1.11.3.min.js"></script>
+		<script src="_js/scripts.js"></script>
+	</body>
+</html>
